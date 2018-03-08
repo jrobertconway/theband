@@ -1,0 +1,26 @@
+.navbar-right {
+	padding-right: 15px;
+	
+}
+
+.navbar {
+	font-family:  'Sedgwick Ave Display', cursive;
+	font-size:  20px;
+	
+}
+
+* {
+	font-family:  'Sedgwick Ave Display', cursive;
+}
+
+#band {
+	margin: 30px, 15px, 30px, 15px;
+	font-size: 30px;
+	color: white;
+	background-color: black;
+}
+
+
+#footer{
+	font-size: 30px;
+}

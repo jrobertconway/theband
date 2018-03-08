@@ -1,0 +1,204 @@
+<DOCTYPE! html>
+	<html>
+		<head>
+			<title>Music Group Template</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="band.css">
+			<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave|Sedgwick+Ave+Display" rel="stylesheet">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
+
+		</head>
+		<body>
+<!--Nav Section-->
+			<div class="container-fluid">
+				<nav class="navbar navbar-inverse navbar-fixed-top">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+				  	</button>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#band">Band</a></li>
+							<li><a href="#tour">Tour</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">More<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Merchandise</a></li>
+										<li><a href="#">Extras</a></li>
+										<li><a href="#">Media</a></li>
+									</ul>
+							</li>
+						</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#"><span class="fa fa-search"></span></a></li>
+							</ul>
+						
+					</div>
+				</nav>
+				
+<!--Carousel Section-->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+					<div class="item active">
+					  <img src="https://static.pexels.com/photos/332688/pexels-photo-332688.jpeg" alt="Chania">
+					  <div class="carousel-caption">
+						<h3>Los Angeles</h3>
+						<p>LA is always so much fun!</p>
+					  </div>
+					</div>
+
+					<div class="item">
+					  <img src="https://static.pexels.com/photos/246972/pexels-photo-246972.jpeg" alt="Chicago">
+					  <div class="carousel-caption">
+						<h3>Chicago</h3>
+						<p>Thank you, Chicago!</p>
+					  </div>
+					</div>
+
+					<div class="item">
+					  <img src="https://static.pexels.com/photos/274406/pexels-photo-274406.jpeg" alt="New York">
+					  <div class="carousel-caption">
+						<h3>New York</h3>
+						<p>We love the Big Apple!</p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+<!--Band-->
+			<div class="row" id="band">
+				<div class="col-md-4 col-md-offset-4">
+					<blockquote>
+						<p>Wherever I go, I bring the culture with me, so that they can understand that it's attainable. I didn't do it any other way than through hip-hop. <cite>- Jay Z</cite></p>
+					</blockquote>
+				</div>
+			</div>
+			<div class="row" id="band">
+				<div class="col-md-6 col-md-offset-3">
+					<h3 text-center>Group</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+<!--Tour-->
+			<div class="row" id="tour1">
+				<div class="col-md-12 text-center">
+					<h1>Tour Dates</h1>
+				</div>
+			</div>
+			<div class="row" id="tour2">
+				<div class="col-md-3 col-md-offset-2">
+					<h3>New York</h3>
+						<img src="https://static.pexels.com/photos/374710/pexels-photo-374710.jpeg" alt="New York" style="width: 128px; height: 128px;">
+							<p>Sat. 9/16/17</p>
+								<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+				</div>
+				<div class="col-md-3">
+					<h3>Los Angelos</h3>
+						<img src="https://static.pexels.com/photos/164183/pexels-photo-164183.jpeg" alt="Los Angelos" style="width: 128px; height: 128px;">
+							<p>Sun. 9/17/17</p>
+								<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+				</div>
+				<div class="col-md-3">
+					<h3>Atlanta</h3>
+						<img src="https://static.pexels.com/photos/97906/pexels-photo-97906.jpeg" alt="Atlanta" style="width: 128px; height: 128px;">
+							<p>Fri. 9/22/17</p>
+								<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+				</div>
+				</div>
+<!--Modal for tickets-->
+				<div id="myModal" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+					
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Tickets</h4>
+					  </div>
+					  <div class="modal-body">
+						<form>
+						  <div class="form-group">
+							<label for="email">Email address:</label>
+							<input type="email" class="form-control" id="email">
+						  </div>
+						  <div class="form-group">
+							<label for="pwd">How Many Tickets:</label>
+							<input type="password" class="form-control" id="text">
+						  </div>
+						  <button type="submit" class="btn btn-default">Submit</button>
+						</form>
+						</div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					  </div>
+					</div>
+
+				  </div>
+				</div>
+				
+<!--Contact info/form-->
+				<div class="row" id="contact">
+					<div class="col-md-12 text-center">
+						<h1>Contact</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-2">
+						<div class="row">
+							<div class="col-md-12">
+								<p><span class="glyphicon glyphicon-map-marker"></span> Newark, N.J.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<p><span class="glyphicon glyphicon-earphone"></span> Phone: 555-555-5555</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<p><span class="glyphicon glyphicon-envelope"></span> Email: mail@mail.com</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+						  <label for="usr">Name:</label>
+						  <input type="text" class="form-control" id="usr">
+						</div>
+						<div class="form-group">
+						  <label for="pwd">Email:</label>
+						  <input type="email" class="form-control" id="email">
+						</div>
+						<div class="form-group">
+						  <label for="pwd">Message:</label>
+						  <input type="text" class="form-control" id="message">
+						</div>
+					</div>
+				</div>
+				
+<!--Footer-->
+				<div class="row" id="footer">
+					<div class="col-md-12 text-center">
+						<p><span class="fa fa-twitter"></span><span class="fa fa-facebook"></span><span class="fa fa-instagram"></span></p>	
+					</div>
+				</div>
+			
+			
+			</div>
+		</body>
+	</html>
